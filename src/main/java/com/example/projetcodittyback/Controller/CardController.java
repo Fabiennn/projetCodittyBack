@@ -16,7 +16,6 @@ import java.util.List;
 @RequestMapping("/card")
 public class CardController {
 
-
     @Autowired
     private CardRepository cardRepository;
 
