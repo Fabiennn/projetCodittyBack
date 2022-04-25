@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Structure de la table `card`
 --
 
+use heroku_8d9643caf1cc16c;
+
 CREATE TABLE `card` (
   `id` int(11) NOT NULL,
   `description` varchar(200) NOT NULL,
